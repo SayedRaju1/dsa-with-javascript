@@ -4,3 +4,4 @@
 |------|--------|-------|------------|
 | 2026-01-20 | Two Sum | Hash Map | Easy |
 | 2026-01-21 | Second Largest Digit in a String | String | Easy |
+| 2026-01-22 | Palindrome Number | Number | Easy |
