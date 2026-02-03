@@ -20,3 +20,4 @@
 
 ## Used in Problems
 - Count Negative
+- Second Largest Element
