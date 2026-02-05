@@ -13,8 +13,8 @@
 
 ## Overflow Prevention
 - 32-bit signed integer range: [-2³¹, 2³¹ - 1] = [-2147483648, 2147483647]
-- Check overflow BEFORE updating result, not after
-- Use `(x / 10) | 0` to truncate toward zero (handles negative numbers correctly)
+- Check overflow before returning: for positive rev ≤ 2³¹−1; for negative (return −rev) need rev ≤ 2³¹
+- Reverse Integer: preserve sign (xCopy), work with Math.abs(x), build rev, then check overflow and restore sign
 
 ## Used in Problems
 - Palindrome Number
