@@ -19,3 +19,4 @@
 ## Used in Problems
 - Palindrome Number
 - Reverse Integer
+- Count Digits (digit count via division by 10)
