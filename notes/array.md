@@ -18,6 +18,13 @@
 - Return appropriate error values (false) for invalid inputs
 - Handle special number cases: NaN, Infinity, -Infinity
 
+## Two-Pointer (In-Place)
+- One pointer tracks "write" position for unique/valid elements (e.g. `x`).
+- Other pointer scans the array (e.g. loop index `i`).
+- When a new unique value is found (`nums[i] > nums[x]`), increment write index and copy value.
+- Used when modifying array in-place with O(1) extra space.
+
 ## Used in Problems
 - Count Negative
 - Second Largest Element
+- Remove Duplicates from Sorted Array (LeetCode #26)
