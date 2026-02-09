@@ -28,3 +28,4 @@
 - Count Negative
 - Second Largest Element
 - Remove Duplicates from Sorted Array (LeetCode #26)
+- Remove Element (LeetCode #27)

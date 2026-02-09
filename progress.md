@@ -12,3 +12,4 @@
 | 2026-02-04 | Right-Angled Triangle of Stars (Pattern 6) | Number   | Easy       |
 | 2026-02-05 | Count Digits                              | Number   | Easy       |
 | 2026-02-08 | Remove Duplicates from Sorted Array       | Array    | Easy       |
+| 2026-02-09 | Remove Element                            | Array    | Easy       |
