@@ -24,8 +24,13 @@
 - When a new unique value is found (`nums[i] > nums[x]`), increment write index and copy value.
 - Used when modifying array in-place with O(1) extra space.
 
+## Two-Pointer (Reversal)
+- Swap elements from both ends toward center: loop to half length, swap `s[i]` with `s[len - i - 1]`.
+- Used for in-place array reversal (e.g. Reverse String — input is array of characters).
+
 ## Used in Problems
 - Count Negative
 - Second Largest Element
 - Remove Duplicates from Sorted Array (LeetCode #26)
 - Remove Element (LeetCode #27)
+- Reverse String (LeetCode #344)
