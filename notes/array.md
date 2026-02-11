@@ -34,3 +34,4 @@
 - Remove Duplicates from Sorted Array (LeetCode #26)
 - Remove Element (LeetCode #27)
 - Reverse String (LeetCode #344)
+- Best Time to Buy and Sell Stock (LeetCode #121)
