@@ -28,6 +28,11 @@
 - Swap elements from both ends toward center: loop to half length, swap `s[i]` with `s[len - i - 1]`.
 - Used for in-place array reversal (e.g. Reverse String — input is array of characters).
 
+## Two-Pointer (Merge from End)
+- When merging into one array in-place, fill from the end to avoid overwriting unread values.
+- Pointers at last valid index of each array; place the larger element at current end, then decrement.
+- Handles one array exhausted first: if nums2 exhausted, break; if nums1 exhausted, copy rest of nums2.
+
 ## Used in Problems
 - Count Negative
 - Second Largest Element
@@ -35,3 +40,4 @@
 - Remove Element (LeetCode #27)
 - Reverse String (LeetCode #344)
 - Best Time to Buy and Sell Stock (LeetCode #121)
+- Merge Sorted Array (LeetCode #88)
