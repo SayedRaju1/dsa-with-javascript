@@ -16,3 +16,4 @@
 | 2026-02-10 | Reverse String                            | Array    | Easy       |
 | 2026-02-12 | Best Time to Buy and Sell Stock           | Array    | Easy       |
 | 2026-02-15 | Merge Sorted Array                        | Array    | Easy       |
+| 2026-02-18 | Move Zeroes                               | Array    | Easy       |
