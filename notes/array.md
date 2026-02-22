@@ -33,6 +33,11 @@
 - Pointers at last valid index of each array; place the larger element at current end, then decrement.
 - Handles one array exhausted first: if nums2 exhausted, break; if nums1 exhausted, copy rest of nums2.
 
+## Single Pass / Streak Counting
+- Track current streak (e.g. `currentCount`) and max streak (e.g. `maxCount`).
+- On streak continuation (e.g. `nums[i] === 1`), increment current; on break (e.g. `nums[i] === 0`), update max and reset current.
+- After loop, take max of `maxCount` and `currentCount` so a trailing streak is considered (e.g. Max Consecutive Ones).
+
 ## Used in Problems
 - Count Negative
 - Second Largest Element
@@ -42,3 +47,4 @@
 - Best Time to Buy and Sell Stock (LeetCode #121)
 - Merge Sorted Array (LeetCode #88)
 - Move Zeroes (LeetCode #283)
+- Max Consecutive Ones (LeetCode #485)
