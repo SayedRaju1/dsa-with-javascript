@@ -18,3 +18,4 @@
 | 2026-02-15 | Merge Sorted Array                        | Array    | Easy       |
 | 2026-02-18 | Move Zeroes                               | Array    | Easy       |
 | 2026-02-22 | Max Consecutive Ones                      | Array    | Easy       |
+| 2026-02-23 | Missing Number                            | Array    | Easy       |

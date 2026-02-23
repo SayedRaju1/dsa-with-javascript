@@ -33,6 +33,11 @@
 - Pointers at last valid index of each array; place the larger element at current end, then decrement.
 - Handles one array exhausted first: if nums2 exhausted, break; if nums1 exhausted, copy rest of nums2.
 
+## Sum Formula (0 to n)
+- Expected sum of 0, 1, …, n is `n * (n + 1) / 2`.
+- Sum the array; missing number = expected sum − array sum.
+- O(n) time, O(1) space (e.g. Missing Number).
+
 ## Single Pass / Streak Counting
 - Track current streak (e.g. `currentCount`) and max streak (e.g. `maxCount`).
 - On streak continuation (e.g. `nums[i] === 1`), increment current; on break (e.g. `nums[i] === 0`), update max and reset current.
@@ -48,3 +53,4 @@
 - Merge Sorted Array (LeetCode #88)
 - Move Zeroes (LeetCode #283)
 - Max Consecutive Ones (LeetCode #485)
+- Missing Number (LeetCode #268)
