@@ -33,6 +33,10 @@
 - Pointers at last valid index of each array; place the larger element at current end, then decrement.
 - Handles one array exhausted first: if nums2 exhausted, break; if nums1 exhausted, copy rest of nums2.
 
+## XOR (Single Unique in Pairs)
+- When every element appears twice except one: XOR all elements; pairs cancel (a ^ a = 0), so result is the unique number (a ^ 0 = a).
+- O(n) time, O(1) space (e.g. Single Number, LeetCode #136).
+
 ## Sum Formula (0 to n)
 - Expected sum of 0, 1, …, n is `n * (n + 1) / 2`.
 - Sum the array; missing number = expected sum − array sum.
@@ -54,3 +58,4 @@
 - Move Zeroes (LeetCode #283)
 - Max Consecutive Ones (LeetCode #485)
 - Missing Number (LeetCode #268)
+- Single Number (LeetCode #136)
