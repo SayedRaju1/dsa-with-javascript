@@ -20,3 +20,4 @@
 | 2026-02-22 | Max Consecutive Ones                      | Array    | Easy       |
 | 2026-02-23 | Missing Number                            | Array    | Easy       |
 | 2026-02-24 | Single Number                             | Array    | Easy       |
+| 2026-03-02 | Print Numbers from n to 1 (Recursion 101) | Recursion| Easy       |
