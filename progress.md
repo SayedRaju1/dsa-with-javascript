@@ -21,3 +21,4 @@
 | 2026-02-23 | Missing Number                            | Array    | Easy       |
 | 2026-02-24 | Single Number                             | Array    | Easy       |
 | 2026-03-02 | Print Numbers from n to 1 (Recursion 101) | Recursion| Easy       |
+| 2026-03-03 | Sum of First n Numbers                    | Recursion| Easy       |

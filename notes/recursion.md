@@ -16,3 +16,4 @@
 
 ## Used in Problems
 - Print Numbers from n to 1 (Recursion 101)
+- Sum of First n Numbers (base case: n === 0 return 0; recursive case: n + sum(n - 1))
