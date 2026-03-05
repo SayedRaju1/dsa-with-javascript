@@ -42,6 +42,11 @@
 - Sum the array; missing number = expected sum − array sum.
 - O(n) time, O(1) space (e.g. Missing Number).
 
+## Recursion (Index-Based)
+- Sum from index 0 to n: base case `n === 0` return `arr[0]`; recursive case `arr[n] + sum(arr, n - 1)`.
+- Full array sum: call with `n = arr.length - 1`; handle empty array separately (return 0).
+- Time O(n), space O(n) due to call stack.
+
 ## Single Pass / Streak Counting
 - Track current streak (e.g. `currentCount`) and max streak (e.g. `maxCount`).
 - On streak continuation (e.g. `nums[i] === 1`), increment current; on break (e.g. `nums[i] === 0`), update max and reset current.
@@ -59,3 +64,4 @@
 - Max Consecutive Ones (LeetCode #485)
 - Missing Number (LeetCode #268)
 - Single Number (LeetCode #136)
+- Sum of All Numbers in Array (Recursion)
