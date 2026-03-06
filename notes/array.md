@@ -47,6 +47,12 @@
 - Full array sum: call with `n = arr.length - 1`; handle empty array separately (return 0).
 - Time O(n), space O(n) due to call stack.
 
+## Recursion (Conditional Sum, e.g. Odd Only)
+- Same index-based recursion; only add element when it meets a condition (e.g. odd: `arr[n] % 2 !== 0`).
+- Base case: `n === 0` return `arr[0]` if condition holds, else `0`.
+- Recursive case: `(condition ? arr[n] : 0) + sumConditional(arr, n - 1)`.
+- Handle `n < 0` for empty array (return 0).
+
 ## Single Pass / Streak Counting
 - Track current streak (e.g. `currentCount`) and max streak (e.g. `maxCount`).
 - On streak continuation (e.g. `nums[i] === 1`), increment current; on break (e.g. `nums[i] === 0`), update max and reset current.
@@ -65,3 +71,4 @@
 - Missing Number (LeetCode #268)
 - Single Number (LeetCode #136)
 - Sum of All Numbers in Array (Recursion)
+- Sum of Odd Numbers in Array (Recursion)

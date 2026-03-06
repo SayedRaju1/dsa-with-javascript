@@ -23,3 +23,4 @@
 | 2026-03-02 | Print Numbers from n to 1 (Recursion 101) | Recursion| Easy       |
 | 2026-03-03 | Sum of First n Numbers                    | Recursion| Easy       |
 | 2026-03-05 | Sum of All Numbers in Array (Recursion)   | Array    | Easy       |
+| 2026-03-06 | Sum of Odd Numbers in Array (Recursion)  | Array    | Easy       |
