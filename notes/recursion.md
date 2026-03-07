@@ -17,3 +17,4 @@
 ## Used in Problems
 - Print Numbers from n to 1 (Recursion 101)
 - Sum of First n Numbers (base case: n === 0 return 0; recursive case: n + sum(n - 1))
+- Is Power of Two (base case: n === 1 → true; invalid: n < 1 or n % 2 !== 0 → false; recursive: isPowerOfTwo(n / 2))
