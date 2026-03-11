@@ -72,3 +72,4 @@
 - Single Number (LeetCode #136)
 - Sum of All Numbers in Array (Recursion)
 - Sum of Odd Numbers in Array (Recursion)
+- Linear Search

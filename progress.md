@@ -26,3 +26,4 @@
 | 2026-03-06 | Sum of Odd Numbers in Array (Recursion)  | Array    | Easy       |
 | 2026-03-07 | Is Power of Two                         | Recursion| Easy       |
 | 2026-03-08 | Factorial of a Number (Recursion)       | Recursion| Easy       |
+| 2026-03-11 | Linear Search                          | Array    | Easy       |
