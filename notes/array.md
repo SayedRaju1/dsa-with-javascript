@@ -53,6 +53,11 @@
 - Recursive case: `(condition ? arr[n] : 0) + sumConditional(arr, n - 1)`.
 - Handle `n < 0` for empty array (return 0).
 
+## Binary Search (Sorted Array)
+- Requires a **sorted array**. Maintain `left` and `right`; while `left <= right`, compute `middle = Math.floor((left + right) / 2)`.
+- If `nums[middle] === target`, return `middle`. If `target < nums[middle]`, set `right = middle - 1`; else `left = middle + 1`.
+- If loop ends without a match, return `-1`. Time O(log n), space O(1) (e.g. Binary Search).
+
 ## Single Pass / Streak Counting
 - Track current streak (e.g. `currentCount`) and max streak (e.g. `maxCount`).
 - On streak continuation (e.g. `nums[i] === 1`), increment current; on break (e.g. `nums[i] === 0`), update max and reset current.
@@ -73,3 +78,4 @@
 - Sum of All Numbers in Array (Recursion)
 - Sum of Odd Numbers in Array (Recursion)
 - Linear Search
+- Binary Search
