@@ -28,3 +28,4 @@
 | 2026-03-08 | Factorial of a Number (Recursion)       | Recursion| Easy       |
 | 2026-03-11 | Linear Search                          | Array    | Easy       |
 | 2026-03-14 | Binary Search                          | Array    | Easy       |
+| 2026-03-15 | Bubble Sort                            | Sorting  | Easy       |
