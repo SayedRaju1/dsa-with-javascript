@@ -30,3 +30,4 @@
 | 2026-03-14 | Binary Search                          | Array    | Easy       |
 | 2026-03-15 | Bubble Sort                            | Sorting  | Easy       |
 | 2026-03-17 | Selection Sort                         | Sorting  | Easy       |
+| 2026-03-18 | Insertion Sort                         | Sorting  | Easy       |
