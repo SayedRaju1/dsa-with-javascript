@@ -32,3 +32,4 @@
 | 2026-03-17 | Selection Sort                         | Sorting  | Easy       |
 | 2026-03-18 | Insertion Sort                         | Sorting  | Easy       |
 | 2026-03-20 | Merge Sort                             | Sorting  | Easy       |
+| 2026-04-14 | Middle of the Linked List              | Linked List | Easy    |
