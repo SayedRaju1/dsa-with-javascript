@@ -33,3 +33,4 @@
 | 2026-03-18 | Insertion Sort                         | Sorting  | Easy       |
 | 2026-03-20 | Merge Sort                             | Sorting  | Easy       |
 | 2026-04-14 | Middle of the Linked List              | Linked List | Easy    |
+| 2026-04-15 | Reverse Linked List                    | Linked List | Easy    |
