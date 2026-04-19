@@ -36,6 +36,15 @@
  *
  * Time Complexity: O(n), where n is the number of nodes
  * Space Complexity: O(n), in the worst case all nodes are stored in the Set
+ *
+ * Alternate — Floyd's cycle detection (tortoise and hare):
+ * - Initialize two pointers: slow (one step) and fast (two steps).
+ * - If a cycle exists, fast will eventually meet slow inside the loop.
+ * - If fast or fast.next reaches null, there is no cycle.
+ * - See hasCycleFloyd below (same logic as the reference solution; rename to hasCycle for LeetCode).
+ *
+ * Time (alternate): O(n)
+ * Space (alternate): O(1)
  */
 var hasCycle = function (head) {
   let seenNodes = new Set();
@@ -50,4 +59,20 @@ var hasCycle = function (head) {
   }
 
   return false;
+};
+
+/**
+ * Alternate solution: Floyd's cycle detection (tortoise and hare).
+ * Submit as hasCycle on LeetCode by renaming this function.
+ */
+var hasCycleFloyd = function (head) {
+  if (!head) return false;
+  let slow = head;
+  let fast = head.next;
+  while (slow !== fast) {
+    if (!fast || !fast.next) return false;
+    slow = slow.next;
+    fast = fast.next.next;
+  }
+  return true;
 };
