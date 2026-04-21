@@ -36,3 +36,4 @@
 | 2026-04-15 | Reverse Linked List                    | Linked List | Easy    |
 | 2026-04-16 | Linked List Cycle                      | Linked List | Easy    |
 | 2026-04-20 | Palindrome Linked List                 | Linked List | Easy    |
+| 2026-04-21 | Intersection of Two Linked Lists      | Linked List | Easy    |
